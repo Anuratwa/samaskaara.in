@@ -1,0 +1,75 @@
+*{
+    font-family: 'Roboto'; sans-serif;  
+}
+	body {
+		background-image:url("http://equalitycanada.com/wp-content/uploads/2015/04/mcgill.jpg") ;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100% 120%;  
+		background-origin: padding-box;
+        font-family: 'Roboto'; sans-serif;  
+
+	}
+	h2 {
+
+		font-size: 2.0em;
+		color: rgb(34,34,34);
+        text-align: center;
+	}
+	section#login {
+		background-color: rgba(255,255,255,0.5);
+
+   		border: 1px solid rgba(0,0,0,.15);
+		border-radius: 5px;
+		box-shadow: 0px 0px 40px;
+		margin: 200px auto;
+		padding: 24px;
+		width: 500px;
+		transition-property: background-color, box-shadow, border;
+  		transition-duration: 0.5s;
+ 		transition-timing-function: linear;
+		
+	}
+
+	section#login:hover {
+		background-color: rgba(255,255,255,0.9);
+		box-shadow: 0px 0px 500px;
+	}
+
+    section#login:hover > a {
+        background-color: rgba(85,123,189,0.8)
+}
+
+section#login >a:hover {
+    background-color: green;
+            background-color: rgba(85,123,189,1)
+
+}
+
+
+	form.classA label {
+
+		display: block;
+        position: relative;
+        margin-left: 170px;
+        margin-left: 170px;
+		
+	}
+
+
+a {
+    
+    display: inline-block;
+    color: whitesmoke;   
+     text-decoration: none;
+    padding: 10px;
+    min-height: 10px;
+    border: 1px transparent black;
+    background-color: rgba(85,123,189,0.5);
+    border-radius: 5px;
+    margin-left: 95px;
+    box-shadow: 0px 0px 0px;
+    transition-property: box-shadow, background-color, border;
+    transition-duration: 0.3s;
+    
+}
