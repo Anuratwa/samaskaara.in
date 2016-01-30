@@ -81,5 +81,28 @@ section.module.parallax-3 {
     margin-left: 50px;
     background-color: #ddd;
     margin-top: 50px;
+    box-shadow: 0px 0px 5px;
+    transition-property: box-shadow, border;
+    transition-duration: 0.3s;
     
+    
+    
+}
+
+.courses:hover {
+    box-shadow: 0px 0px 20px;
+    border: 1px solid rgb(85,123,189);
+}
+
+
+.moreInfo {
+    background-color: rgb(64,64,64);
+    color: whitesmoke;
+    width: 100%;
+    left: 0px;
+    min-width:100%;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Helvetica;
 }
